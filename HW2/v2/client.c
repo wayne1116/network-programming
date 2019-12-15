@@ -258,6 +258,7 @@ void *sendsock(void *arg)
 				write(sock, response, sizeof(response));
 			}
 			else printf("\n\t*** Error: Cannot find the command, please try again! ***\n");
+			match_flag = false;
 			pthread_mutex_unlock(&match_mutex);
 			usleep(1000);
 		}
