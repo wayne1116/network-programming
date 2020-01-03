@@ -1,6 +1,6 @@
-# Network-programming Homework2
+## Network-programming Homework2
 
-## Implementation
+### Implementation
 
 - Allow multiple clients to log in to the server at the same time.
 
