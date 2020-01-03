@@ -1,5 +1,9 @@
 ## Networking programming homework3
 
+Compiling a pcap program requires linking with the pcap lib.
+
+    sudo apt-get install libpcap-dev
+
 ### How to compile
 
 ● generate executive file
