@@ -2,33 +2,33 @@
 
 ### How to compile
 
-Compiling a pcap program requires linking with the pcap lib.
+● Compiling a pcap program requires linking with the pcap lib.
 
     sudo apt-get install libpcap-dev
 
-● generate executive file
+● Generate executive file
 
     make all
 
 ### How to read the pcap file
 
-● read the arp pcap file
+● Read the arp pcap file
 
     make arp
     
-● read the http pcap file
+● Read the http pcap file
 
     make http
     
-● read the v6-http pcap file
+● Read the v6-http pcap file
 
     make v6http
 
-● read the dns pcap file
+● Read the dns pcap file
 
     make dns
 
-● read the ospf pcap file
+● Read the ospf pcap file
     
     make ospf
 
